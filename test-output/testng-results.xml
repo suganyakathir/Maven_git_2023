@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="123614" started-at="2023-09-13T09:45:24Z" finished-at="2023-09-13T09:47:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="123614" started-at="2023-09-13T09:45:24Z" finished-at="2023-09-13T09:47:28Z">
+      <class name="org.reg.FlipReg">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:org.reg.FlipReg@79b4d0f]" name="beforeclass" is-config="true" duration-ms="100796" started-at="2023-09-13T15:15:24Z" finished-at="2023-09-13T15:17:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:org.reg.FlipReg@79b4d0f]" name="beforemethod" is-config="true" duration-ms="455" started-at="2023-09-13T15:17:05Z" finished-at="2023-09-13T15:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:org.reg.FlipReg@79b4d0f]" name="test1" duration-ms="16358" started-at="2023-09-13T15:17:06Z" finished-at="2023-09-13T15:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:org.reg.FlipReg@79b4d0f]" name="afterclass" is-config="true" duration-ms="5890" started-at="2023-09-13T15:17:22Z" finished-at="2023-09-13T15:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- org.reg.FlipReg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
