@@ -171,7 +171,7 @@ public class BaseClass {
     	else if(loc.equals("xpath")) {
     		t=driver.findElement(By.xpath(value));
     	}
-		return n;
+		return t;
     }
 
 }
