@@ -67,8 +67,8 @@ public class FlipReg extends BaseClass {
 	
 	@Test
 	private void test5() {
-		List<WebElement> productNames1 = driver.findElements(By.xpath("//div[@class='_4rR01T']"));
-		List<WebElement> price1 = driver.findElements(By.xpath("//div[@class='_30jeq3 _1_WHN1']"));
+		List<WebElement> productNamesL = driver.findElements(By.xpath("//div[@class='_4rR01T']"));
+		List<WebElement> priceL = driver.findElements(By.xpath("//div[@class='_30jeq3 _1_WHN1']"));
 	    for(int k=0;k<24;k++) {
 	    	String product = productNames1.get(k).getText();
 	    	String price = price1.get(k).getText();
