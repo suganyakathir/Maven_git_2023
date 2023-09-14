@@ -2,6 +2,7 @@ package org.test;
 
 import org.base.BaseClass;
 import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
@@ -25,6 +26,10 @@ public class FlipLogin extends BaseClass {
 	public WebElement getTxtPrint() {
 		return txtPrint;
 	}
+	
+//	@FindBys({@FindBy(xpath="//div[@class='_4rR01T"),@FindBy(xpath="//div[text()='APPLE iPhone 13 (Midnight, 128 GB)']")})
+	private WebElement iphoneList;
+	
 	
 
 }
