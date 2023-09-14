@@ -27,9 +27,7 @@ public class FlipLogin extends BaseClass {
 		return txtPrint;
 	}
 	
-//	@FindBys({@FindBy(xpath="//div[@class='_4rR01T"),@FindBy(xpath="//div[text()='APPLE iPhone 13 (Midnight, 128 GB)']")})
-	private WebElement iphoneList;
-	
+
 	
 
 }
