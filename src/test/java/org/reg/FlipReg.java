@@ -37,7 +37,7 @@ public class FlipReg extends BaseClass {
 		System.out.println("end time "+d);
 	} 
 	@Test
-	private void test1() {
+	private void test3() {
 		FlipLogin f=new FlipLogin();
 		click(f.getClkClose());
 		sendkeys(f.getClkSearch(),"iphone");
