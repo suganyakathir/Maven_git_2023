@@ -77,5 +77,9 @@ public class FlipReg extends BaseClass {
 	
 	}
 	
+  @Test
+  private void test4() {
+	System.out.println("value");
 
+}
 }
