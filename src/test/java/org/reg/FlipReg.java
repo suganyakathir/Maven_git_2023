@@ -71,8 +71,8 @@ public class FlipReg extends BaseClass {
 		List<WebElement> priceL = driver.findElements(By.xpath("//div[@class='_30jeq3 _1_WHN1']"));
 	    for(int k=0;k<24;k++) {
 	    	String product = productNamesL.get(k).getText();
-	    	String price = priceL.get(k).getText();
-	    	System.out.println(product+" = "+price);
+	    	String prices = priceL.get(k).getText();
+	    	System.out.println(product+" = "+prices);
 	    }
 	
 	}
@@ -83,6 +83,7 @@ public class FlipReg extends BaseClass {
 	System.out.println("test2");
 	System.out.println("test3");
 	System.out.println("test4");
+	System.out.println("test5");
 
 }
 }
